@@ -10,7 +10,7 @@ import Foundation
 
 class DatabaseInfo {
 
-    @PragmaValue("user_version", defaultValue: nil)
+    @PragmaValue("user_version", defaultValue: "")
     var version: String?
 
     let database: Database
